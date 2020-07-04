@@ -24,7 +24,7 @@ _.chunk(['a', 'b', 'c', 'd'], 3);
 // }
 
 
-function chunk (arr, size) {
+function __chunk (arr, size) {
 	var i = 0;
 	const result = [];
 	var tempArr = [];
@@ -49,6 +49,6 @@ function chunk (arr, size) {
 	return result
 }
 
-const array = [1,2,3,4,5,6,7,8,9];
-console.log('CHUNK');
-console.log(chunk(array,4));
+// const array = [1,2,3,4,5,6,7,8,9];
+// console.log('CHUNK');
+// console.log(chunk(array,4));
