@@ -13,5 +13,5 @@ function __compact (arr) {
 	return result;
 }
 
-const arr = ["string", " ", "", 9, 1, 0, -1, 1.5, 1/10, NaN, undefined, null, false, true];
-console.log(__compact(arr));
+// const arr = ["string", " ", "", 9, 1, 0, -1, 1.5, 1/10, NaN, undefined, null, false, true];
+// console.log(__compact(arr));
